@@ -6,6 +6,9 @@ public class Person {
         this.name = name;
         this.id = id;
     }
+    Person(){
+
+    }
 
     public String getName() {
         return name;
