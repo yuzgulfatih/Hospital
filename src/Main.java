@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        InfoSystem infoSystem = new InfoSystem();
+        Patient patient = new Patient("Fatih" , "121312" , 2002);
+        infoSystem.addPatient(patient);
     }
 }

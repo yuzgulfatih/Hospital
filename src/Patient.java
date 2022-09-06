@@ -4,7 +4,9 @@ public class Patient extends Person {
         super(name, id);
         this.brithYear = brithYear;
     }
+    Patient(){
 
+    }
     public int getBrithYear() {
         return brithYear;
     }
